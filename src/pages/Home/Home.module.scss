@@ -1,6 +1,7 @@
+@import 'styles/variaveis.scss';
+
 .main {
     
-
     .gabriel {
         position: absolute;
         bottom: 8rem;
@@ -10,7 +11,7 @@
             font-weight: 400;
             font-size: 20px;            
             letter-spacing: 0.145em;
-            color: #777777;
+            color: $grey-color;
         }
 
         &__title {
@@ -18,7 +19,7 @@
             font-weight: 800;
             font-size: 64px;
             letter-spacing: -0.045em;
-            color: #000000;
+            color: $black-color;
             word-spacing: .15em;
         }
 
@@ -27,7 +28,7 @@
             font-weight: 500;
             font-size: 1.3em;
             line-height: 1.2em;
-            color: #777777;
+            color: $grey-color;
             word-spacing: .15em;
         }
 
