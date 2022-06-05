@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    &__link {
+        text-decoration: none;
+        line-height: 28px;
+        color: #000;
+        font-size: 1.1em;
+        font-weight: 200;
+        
+        b {
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+    }
+
+    svg {
+        font-size: 2em;
+    }
+
+    &__container-menu {
+        color: #000;
+        transition: 150ms;
+
+        &:hover {
+            color: #c4c4c4;
+        }
+    }
+}
