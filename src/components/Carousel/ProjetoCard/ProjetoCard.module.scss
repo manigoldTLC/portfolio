@@ -1,0 +1,19 @@
+.card {
+    width: 504px;
+    height: 573px;
+    margin: 0 10px;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+
+    &__imagem {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 5px;
+    }
+
+    // &__titulo {
+    //     font-size: 4em;
+    //     color: #fff;
+    // }
+}
