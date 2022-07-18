@@ -1,0 +1,15 @@
+@import 'styles/variaveis';
+
+.minTitle {
+    font-weight: 400;
+    font-size: 20px;            
+    letter-spacing: 0.145em;
+    color: $grey-color;
+}
+
+@media screen and (max-width: 480px) {
+    .minTitle {
+        max-width: 100%;
+        font-size: 14px;
+    }
+}

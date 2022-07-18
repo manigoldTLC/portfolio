@@ -1,0 +1,17 @@
+@import 'styles/variaveis';
+
+.title {
+    margin-top: 1rem;
+    font-weight: 800;
+    font-size: 64px;
+    letter-spacing: -0.045em;
+    color: $black-color;
+    word-spacing: .15em;
+}
+
+@media screen and (max-width: 480px) {
+    .title {
+        max-width: 100%;
+        font-size: 24px;
+    }
+}

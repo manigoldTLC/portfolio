@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin: 3rem 5rem;
 
     &__link {
         text-decoration: none;
@@ -30,5 +30,12 @@
         &:hover {
             color: $light-grey-color;
         }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        margin: 3rem 0;
+        padding: 0 1rem;
     }
 }
