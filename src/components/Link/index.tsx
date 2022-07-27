@@ -3,12 +3,13 @@ import styles from './Link.module.scss';
 
 
 interface Props {
-    children: React.ReactNode
+    children: React.ReactNode,
+    to: string
 }
 
-const Link = ({ children }: Props) => {
+const Link = ({ children, to }: Props) => {
     return (
-        <a href='#' className={styles.link}>{children}</a>
+        <a href={to} className={styles.link}>{children}</a>
     )
 }
 

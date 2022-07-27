@@ -4,6 +4,8 @@
     margin: 0 10px;
     border: 1px solid #c2c2c2;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
 
     &__imagem {
         width: 100%;
@@ -11,9 +13,4 @@
         object-fit: contain;
         border-radius: 5px;
     }
-
-    // &__titulo {
-    //     font-size: 4em;
-    //     color: #fff;
-    // }
 }

@@ -32,26 +32,48 @@
         margin-top: 20rem;
     }
 
-    .capacidades {
-        margin-top: 10rem;
+    .linguagens {
+        margin-top: 15rem;
         
-        &__wrapper {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin-top: 6rem;
-            gap: 3rem;
+        &__container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            margin-top: 5rem;
         }
+    }
 
-        &__imagemsobre {
-            width: 350px;
-        }
+    // .capacidades {
+    //     margin-top: 10rem;
+        
+    //     &__wrapper {
+    //         display: flex;
+    //         justify-content: space-around;
+    //         align-items: center;
+    //         margin-top: 6rem;
+    //         gap: 3rem;
+    //     }
 
-        &__sobre {
-            font-size: 20px;
-            line-height: 1.2em;
-            max-width: 50%;
-        }
+    //     &__imagemsobre {
+    //         width: 350px;
+    //     }
+
+    //     &__sobre {
+    //         font-size: 20px;
+    //         line-height: 1.2em;
+    //         max-width: 50%;
+    //     }
+    // }
+}
+
+.arrow {
+    display: flex;
+    margin: 12rem auto;
+    transition: 400ms;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
     }
 }
 
@@ -85,20 +107,20 @@
             margin-top: 5rem;
         }
 
-        .capacidades {
-            margin-top: 5rem;
+        // .capacidades {
+        //     margin-top: 5rem;
 
-            &__wrapper {
-                margin-top: 3.5rem;
-                flex-direction: column;
-            }
+        //     &__wrapper {
+        //         margin-top: 3.5rem;
+        //         flex-direction: column;
+        //     }
 
-            &__sobre {
-                max-width: 100%;
-                font-size: 16px;
-                text-align: center;
-                line-height: 1.2em;
-            }
-        }
+        //     &__sobre {
+        //         max-width: 100%;
+        //         font-size: 16px;
+        //         text-align: center;
+        //         line-height: 1.2em;
+        //     }
+        // }
     }
 }

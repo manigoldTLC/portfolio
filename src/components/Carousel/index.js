@@ -85,6 +85,7 @@ const CarouselComponent = () => {
             "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "imagem": img7,
             "id": 7,
+			"link": "https://pokedex-gray-beta.vercel.app/"
         },
 
 		{
@@ -94,7 +95,8 @@ const CarouselComponent = () => {
             "id": 8,
 			style: {
 				backgroundColor: "#171717"
-			}
+			},
+			"link": "https://alura-studies-gold.vercel.app/"
         }
     ]
 
@@ -113,6 +115,7 @@ const CarouselComponent = () => {
 					imagem={projeto.imagem}
 					titulo={projeto.titulo}
 					styled={projeto.style}
+					link={projeto.link}
 				/>
 			))}
 		</Carousel>

@@ -1,12 +1,14 @@
-import Header from '../../components/Header';
 import Link from '../../components/Link';
 import styles from './Home.module.scss';
 import eu from '../../assets/minha_foto.png'
 import MinTitle from '../../components/MinTitle';
 import Title from '../../components/Title';
 import CarouselComponent from '../../components/Carousel';
-import CardCapacidades from '../../components/CardCapacidades';
-import Footer from '../../components/Footer';
+import TypicalComponent from '../../components/TypicalComponent';
+import {BsFillArrowUpCircleFill} from 'react-icons/bs';
+import {FaReact, FaJsSquare, FaBootstrap, FaHtml5, FaCss3Alt, FaPython, FaSass} from 'react-icons/fa';
+import {SiTypescript, SiPostgresql, SiCplusplus, SiCodio, SiJquery} from 'react-icons/si'
+import CardLinguagens from '../../components/CardLinguagens';
 
 
 const Home = () => {
@@ -15,7 +17,7 @@ const Home = () => {
             <section className={styles.gabriel}>
                 <div className={styles.gabriel__wrapper}>
                     <MinTitle>Gabriel Xavier</MinTitle>
-                    <Title>Desenvolvedor de Software & <br></br>Front-end de aplicações</Title>
+                    <Title><TypicalComponent texto="Desenvolvedor de Software & Front-end de aplicações" /></Title>
                     <p className={styles['gabriel__paragraph']}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br></br>
                         eiusmod tempor incididunt ut labore et dolore magna aliqua.<br></br>
@@ -23,8 +25,8 @@ const Home = () => {
                     </p>
 
                     <ul className={styles.gabriel__list}>
-                        <li className={styles.gabriel__item}><Link>ver projetos</Link></li>|
-                        <li className={styles.gabriel__item}><Link>ler sobre mim</Link></li>
+                        <li className={styles.gabriel__item}><Link to='#projetos'>ver projetos</Link></li>
+                        {/* <li className={styles.gabriel__item}><Link to='#sobremim'>ler sobre mim</Link></li> */}
                     </ul>
                 </div>
 
@@ -32,14 +34,35 @@ const Home = () => {
             </section>
 
             
-            <section className={styles.projects}>
+            <section className={styles.projects} id="projetos">
                 <MinTitle>Projetos recentes</MinTitle>
                 <Title>Alguns de meus projetos</Title>
 
                 <CarouselComponent />
             </section>
 
-            <section className={styles.capacidades}>
+            <section className={styles.linguagens}>
+                <MinTitle>Hard Skills</MinTitle>
+                <Title>Linguagens e tecnologias de domínio</Title>
+
+                <div className={styles.linguagens__container}>
+                    <CardLinguagens children="ReactJS" childrenIcon={<FaReact color='white' size={40} />} />
+                    <CardLinguagens children="JavaScript" childrenIcon={<FaJsSquare color='white' size={40} />} />
+                    <CardLinguagens children="TypeScript" childrenIcon={<SiTypescript color='white' size={35} />} />
+                    <CardLinguagens children="BootStrap 5" childrenIcon={<FaBootstrap color='white' size={40} />} />
+                    <CardLinguagens children="Jquery" childrenIcon={<SiJquery color='white' size={35} />} />
+                    <CardLinguagens children="React Native" childrenIcon={<FaReact color='white' size={40} />} />
+                    <CardLinguagens children="HTML 5" childrenIcon={<FaHtml5 color='white' size={40} />} />
+                    <CardLinguagens children="CSS 3" childrenIcon={<FaCss3Alt color='white' size={40} />} />
+                    <CardLinguagens children="SASS" childrenIcon={<FaSass color='white' size={40} />} />
+                    <CardLinguagens children="Python" childrenIcon={<FaPython color='white' size={40} />} />
+                    <CardLinguagens children="C" childrenIcon={<SiCodio color='white' size={35} />} />
+                    <CardLinguagens children="C++" childrenIcon={<SiCplusplus color='white' size={35} />} />
+                    <CardLinguagens children="PostgreSQL" childrenIcon={<SiPostgresql color='white' size={35} />} />
+                </div>
+            </section>
+
+            {/* <section className={styles.capacidades} id="sobremim">
                 <MinTitle>Sobre mim</MinTitle>
                 <Title>Eu, Gabriel Xavier</Title>
 
@@ -53,7 +76,13 @@ const Home = () => {
                         irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                 </article>
-            </section>
+            </section> */}
+
+            <BsFillArrowUpCircleFill
+                className={styles.arrow}
+                size={45}
+                onClick={() => window.scrollTo(0, 0)}
+            />
         </main>
     )
 }
