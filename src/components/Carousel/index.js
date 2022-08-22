@@ -31,8 +31,28 @@ const CarouselComponent = () => {
             "id": 1,
 			style: {
 				backgroundColor: "#8B0016"
-			}
+			},
+			"link": "https://www.linkedin.com/posts/gabriel-xavier-cardoso-04080217b_react-reactnative-github-activity-6869299704648339456-vdUR?utm_source=linkedin_share&utm_medium=member_desktop_web"
         },
+
+		{
+			"titulo": "Contagem de estudos",
+            "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "imagem": img8,
+            "id": 8,
+			style: {
+				backgroundColor: "#171717"
+			},
+			"link": "https://alura-studies-gold.vercel.app/"
+        },
+
+		{
+			"titulo": "Galeria de Artes",
+			"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+			"imagem": img2,
+			"id": 2,
+
+		},
 
 		{
 			"titulo": "Eventos",
@@ -43,6 +63,14 @@ const CarouselComponent = () => {
 				backgroundColor: "#ECD235"
 			}
 		},
+
+        {
+            "titulo": "Simple and Modern Design System",
+            "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "imagem": img3,
+            "id": 3,
+
+        },
 		
 		{
 			"titulo": "Dualsense 5",
@@ -52,14 +80,6 @@ const CarouselComponent = () => {
 			style: {
 				backgroundColor: "#2C2B30"
 			}
-		},
-	
-		{
-			"titulo": "Galeria de Artes",
-			"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-			"imagem": img2,
-			"id": 2,
-
 		},
 
 		{
@@ -72,32 +92,13 @@ const CarouselComponent = () => {
 			}
 		},
 
-        {
-            "titulo": "Simple and Modern Design System",
-            "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "imagem": img3,
-            "id": 3,
-
-        },	    
-
 		{
-            "titulo": "Linguagens de programação",
-            "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "imagem": img7,
-            "id": 7,
+			"titulo": "Linguagens de programação",
+			"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+			"imagem": img7,
+			"id": 7,
 			"link": "https://pokedex-gray-beta.vercel.app/"
-        },
-
-		{
-            "titulo": "Contagem de estudos",
-            "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "imagem": img8,
-            "id": 8,
-			style: {
-				backgroundColor: "#171717"
-			},
-			"link": "https://alura-studies-gold.vercel.app/"
-        }
+		},
     ]
 
 	return (

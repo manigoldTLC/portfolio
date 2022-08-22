@@ -6,7 +6,7 @@ import Title from '../../components/Title';
 import CarouselComponent from '../../components/Carousel';
 import TypicalComponent from '../../components/TypicalComponent';
 import {BsFillArrowUpCircleFill} from 'react-icons/bs';
-import {FaReact, FaJsSquare, FaBootstrap, FaHtml5, FaCss3Alt, FaPython, FaSass} from 'react-icons/fa';
+import {FaReact, FaJsSquare, FaBootstrap, FaHtml5, FaCss3Alt, FaPython, FaSass, FaAngular} from 'react-icons/fa';
 import {SiTypescript, SiPostgresql, SiCplusplus, SiCodio, SiJquery} from 'react-icons/si'
 import CardLinguagens from '../../components/CardLinguagens';
 
@@ -19,9 +19,8 @@ const Home = () => {
                     <MinTitle>Gabriel Xavier</MinTitle>
                     <Title><TypicalComponent texto="Desenvolvedor de Software & Front-end de aplicações" /></Title>
                     <p className={styles['gabriel__paragraph']}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br></br>
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua.<br></br>
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        Desenvolvedor e graduando em Engenharia de Computação<br></br> pela Universidade de Brasília.
+                        Mais de 2 anos de experiência como desenvolvedor web, com maior ênfase em front-end.<br></br>
                     </p>
 
                     <ul className={styles.gabriel__list}>
@@ -52,6 +51,7 @@ const Home = () => {
                     <CardLinguagens children="BootStrap 5" childrenIcon={<FaBootstrap color='white' size={40} />} />
                     <CardLinguagens children="Jquery" childrenIcon={<SiJquery color='white' size={35} />} />
                     <CardLinguagens children="React Native" childrenIcon={<FaReact color='white' size={40} />} />
+                    <CardLinguagens children="Angular" childrenIcon={<FaAngular color='white' size={40} />} />
                     <CardLinguagens children="HTML 5" childrenIcon={<FaHtml5 color='white' size={40} />} />
                     <CardLinguagens children="CSS 3" childrenIcon={<FaCss3Alt color='white' size={40} />} />
                     <CardLinguagens children="SASS" childrenIcon={<FaSass color='white' size={40} />} />
