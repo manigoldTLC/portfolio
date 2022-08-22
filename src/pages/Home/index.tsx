@@ -19,7 +19,7 @@ const Home = () => {
                     <MinTitle>Gabriel Xavier</MinTitle>
                     <Title><TypicalComponent texto="Desenvolvedor de Software & Front-end de aplicações" /></Title>
                     <p className={styles['gabriel__paragraph']}>
-                        Desenvolvedor e graduando em Engenharia de Computação<br></br> pela Universidade de Brasília.
+                        Desenvolvedor e graduando em Engenharia de Computação pela Universidade de Brasília.
                         Mais de 2 anos de experiência como desenvolvedor web, com maior ênfase em front-end.<br></br>
                     </p>
 
