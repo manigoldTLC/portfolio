@@ -10,6 +10,8 @@ import img5 from '../../assets/imagensProjetos/projeto5.png';
 import img6 from '../../assets/imagensProjetos/projeto6.png';
 import img7 from '../../assets/imagensProjetos/projeto7.png';
 import img8 from '../../assets/imagensProjetos/projeto8.png';
+import img9 from '../../assets/imagensProjetos/projeto9.png';
+import img10 from '../../assets/imagensProjetos/projeto10.png';
 
 const breakPoints = [
 	{ width: 1, itemsToShow: 1 },
@@ -36,6 +38,14 @@ const CarouselComponent = () => {
         },
 
 		{
+            "titulo": "Gatito petshop",
+            "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "imagem": img9,
+            "id": 9,
+			"link": "https://gatito-petshop.vercel.app/index.html"
+        },
+
+		{
 			"titulo": "Contagem de estudos",
             "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "imagem": img8,
@@ -47,22 +57,44 @@ const CarouselComponent = () => {
         },
 
 		{
-			"titulo": "Galeria de Artes",
-			"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-			"imagem": img2,
-			"id": 2,
+            "titulo": "Apeperia",
+            "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "imagem": img10,
+            "id": 10,
+			style: {
+				backgroundColor: "#131C28"
+			},
+			"link": "https://apeperia-sigma.vercel.app/"
+        },
 
-		},
+		// {
+		// 	"titulo": "Galeria de Artes",
+		// 	"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		// 	"imagem": img2,
+		// 	"id": 2,
+
+		// },
 
 		{
-			"titulo": "Eventos",
+			"titulo": "MusicDot",
 			"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-			"imagem": img5,
-			"id": 5,
+			"imagem": img6,
+			"id": 6,
 			style: {
-				backgroundColor: "#ECD235"
-			}
+				backgroundColor: "#1C4E76"
+			},
+			"link": "https://music-dot-nu.vercel.app/"
 		},
+
+		// {
+		// 	"titulo": "Eventos",
+		// 	"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		// 	"imagem": img5,
+		// 	"id": 5,
+		// 	style: {
+		// 		backgroundColor: "#ECD235"
+		// 	}
+		// },
 
         // {
         //     "titulo": "Simple and Modern Design System",
@@ -72,25 +104,15 @@ const CarouselComponent = () => {
 
         // },
 		
-		{
-			"titulo": "Dualsense 5",
-			"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-			"imagem": img4,
-			"id": 4,
-			style: {
-				backgroundColor: "#2C2B30"
-			}
-		},
-
-		{
-			"titulo": "MusicDot",
-			"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-			"imagem": img6,
-			"id": 6,
-			style: {
-				backgroundColor: "#1C4E76"
-			}
-		},
+		// {
+		// 	"titulo": "Dualsense 5",
+		// 	"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		// 	"imagem": img4,
+		// 	"id": 4,
+		// 	style: {
+		// 		backgroundColor: "#2C2B30"
+		// 	}
+		// },
 
 		{
 			"titulo": "Linguagens de programação",
@@ -103,12 +125,11 @@ const CarouselComponent = () => {
 
 	return (
 		<Carousel
-			showArrows={widthWindow <= 720 ? false : true}
 			pagination={false}
 			breakPoints={breakPoints}
 			className={styles.Carousel}
 			enableAutoPlay={true}
-			autoPlaySpeed={3000}
+			autoPlaySpeed={5000}
 		>
 			{projetos?.map(projeto => (
 				<ProjetoCard

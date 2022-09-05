@@ -7,7 +7,7 @@ const Footer = () => {
             <ul className={styles.footer__list}>
                 <li className={styles.footer__item}>
                     <span className={styles.footer__title}>Contato</span>
-                    <a href='mailto:xaviergabriel551@gmail.com' className={`${styles.footer__text} ${styles['footer__text--link']}`}>e-mail: xaviergabriel551@gmail.com</a>
+                    <a href='mailto:gabrielxcardoso@gmail.com' className={`${styles.footer__text} ${styles['footer__text--link']}`}>e-mail: gabrielxcardoso@gmail.com</a>
                 </li>
 
                 <li className={styles.footer__item}>
