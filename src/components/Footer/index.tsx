@@ -17,7 +17,7 @@ const Footer = () => {
                 </li>
             </ul>
 
-            <span className={styles.footer__span}>&copy; 2022 | Gabriel Xavier Cardoso</span>
+            <span className={styles.footer__span}>&copy; 2023 | Gabriel Xavier</span>
         </footer>
     )
 }
